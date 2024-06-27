@@ -58,6 +58,7 @@ if(jugadorUno.habilidades.ataque > jugadorDos.habilidades.ataque) {
   contadorPuntosJug1++;
   contadorPuntosJug2++;
 }
+console.log(resultado);
 //COMPARACIÓN POR VELOCIDAD//
 if(jugadorUno.habilidades.velocidad > jugadorDos.habilidades.velocidad) {
   contadorPuntosJug1++;
@@ -107,7 +108,7 @@ if (jugadorUno.articulos.length > jugadorDos.articulos.length) {
 var resultado = {
   [jugadorUno.nombre]: contadorPuntosJug1,
   [jugadorDos.nombre]: contadorPuntosJug2,
-  ganador: ""
+  ganador: "ganador"
 };
 if (contadorPuntosJug1 > contadorPuntosJug2) {
   resultado.ganador = jugadorUno.nombre;
