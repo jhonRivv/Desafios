@@ -9,23 +9,23 @@
 // de la lógica funcione bien)//
 
 const jugadorUno = {
-  nombre: "Marce",
+  nombre: "jhon",
   habilidades: {
-    ataque: 70,
-    velocidad: 30,
-    vida: 60,
+    ataque: 90,
+    velocidad: 50,
+    vida: 100,
     magia: 120,
   },
   articulos: ["espada", "escudo", "varita"],
 };
 
 const jugadorDos = {
-  nombre: "Flor",
+  nombre: "fiorela",
   habilidades: {
-    ataque: 73,
-    velocidad: 30,
-    vida: 80,
-    magia: 100,
+    ataque: 65,
+    velocidad: 56,
+    vida: 90,
+    magia: 130,
   },
   articulos: ["escudo", "varita", "capa", "pocion"],
 };
