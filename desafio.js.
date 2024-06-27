@@ -1,12 +1,12 @@
-//ANTES DE EMPEZAR:
-//Copia este código base completo en un nuevo archivo llamado desafio.js
+//ANTES DE EMPEZAR//
+//Copia este código base completo en un nuevo archivo llamado desafio.js//
 
 //-----------------------------------------------------------------------//
 
-//JUGADORES:
-// NO MODIFICAR LOS NOMBRES DE ESTOS OBJETOS
-// (El test automático les cambia los valores para probar que el resto 
-// de la lógica funcione bien)
+//JUGADORES://
+// NO MODIFICAR LOS NOMBRES DE ESTOS OBJETOS//
+// (El test automático les cambia los valores para probar que el resto// 
+// de la lógica funcione bien)//
 
 const jugadorUno = {
   nombre: "Marce",
@@ -59,26 +59,26 @@ if (habilidadACompararJugador1 > habilidadACompararJugador2) {
   contadorPuntosJug2++;
 }
 
-// (Escribir debajo el código que te permita generar esta comparación)
+// (Escribir debajo el código que te permita generar esta comparación)//
 
 //COMPARACION POR PODER DE ATAQUE//
 if(jugadorUno.habilidades.ataque > jugadorDos.habilidades.ataque) {
   contadorPuntosJug1++;
 } else if (jugadorUno.habilidades.ataque < jugadorDos.habilidades.ataque)
-  contadorPuntosjug2++;
+  contadorPuntosJug2++;
 } else {
   contadorPuntosJug1++;
   contadorPuntosJug2++;
-};
+}
 //COMPARACIÓN POR VELOCIDAD//
-if(jugadorUno.habilidades.velocidad > jugadorDos.habilidades.ataque) {
+if(jugadorUno.habilidades.velocidad > jugadorDos.habilidades.velocidad) {
   contadorPuntosJug1++;
 } else if (jugadorUno.habilidades.velocidad < jugadorDos.habilidades.velocidad)
   contadorPuntosJug2++;
 } else {
   contadorPuntosJug1++;
   contadorPuntosJug2++;
-};
+}
 //-----------------------------------------------------------------------//
 
 //COMPARACIÓN POR NIVEL DE VIDA//
@@ -89,7 +89,7 @@ if (jugadorUno.habilidades.vida > jugadorDos.habilidades.vida) {
 } else {
   contadorPuntosJug1++;
   contadorPuntosJug2++;
-};
+}
 //-----------------------------------------------------------------------//
 
 //COMPARACIÓN POR MAGIA//
@@ -100,10 +100,10 @@ if (jugadorUno.habilidades.magia > jugadorDos.habilidades.magia) {
 } else {
   contadorPuntosJug1++;
   contadorPuntosJug2++;
-};
+}
 //-----------------------------------------------------------------------//
 
-//COMPARACIÓN POR CANTIDAD DE ARTÍCULOS
+//COMPARACIÓN POR CANTIDAD DE ARTÍCULOS//
 if (jugadorUno.articulos.length > jugadorDos.articulos.length) {
   contadorPuntosJug1++;
 } else if (jugadorUno.articulos.length < jugadorDos.articulos.length) {
@@ -111,7 +111,7 @@ if (jugadorUno.articulos.length > jugadorDos.articulos.length) {
 } else {
   contadorPuntosJug1++;
   contadorPuntosJug2++;
-};
+}
 
 //-----------------------------------------------------------------------//
 
@@ -119,7 +119,7 @@ if (jugadorUno.articulos.length > jugadorDos.articulos.length) {
 var resultado = {
   [jugadorUno.nombre]: contadorPuntosJug1,
   [jugadorDos.nombre]: contadorPuntosJug2,
-  ganador: 
+  ganador: ""
 };
 if (contadorPuntosJug1 > contadorPuntosJug2) {
   resultado.ganador = jugadorUno.nombre;
@@ -127,7 +127,7 @@ if (contadorPuntosJug1 > contadorPuntosJug2) {
   resultado.ganador = jugadorDos.nombre;
 } else {
   resultado.ganador = "Empate";
-};
+}
 console.log(resultado);
 
 //-----------------------------------------------------------------------//
