@@ -58,13 +58,12 @@ if (habilidadACompararJugador1 > habilidadACompararJugador2) {
   contadorPuntosJug1++;
   contadorPuntosJug2++;
 }
-
 // (Escribir debajo el código que te permita generar esta comparación)//
 
 //COMPARACION POR PODER DE ATAQUE//
 if(jugadorUno.habilidades.ataque > jugadorDos.habilidades.ataque) {
   contadorPuntosJug1++;
-} else if (jugadorUno.habilidades.ataque < jugadorDos.habilidades.ataque)
+} else if (jugadorUno.habilidades.ataque < jugadorDos.habilidades.ataque) {
   contadorPuntosJug2++;
 } else {
   contadorPuntosJug1++;
@@ -73,7 +72,7 @@ if(jugadorUno.habilidades.ataque > jugadorDos.habilidades.ataque) {
 //COMPARACIÓN POR VELOCIDAD//
 if(jugadorUno.habilidades.velocidad > jugadorDos.habilidades.velocidad) {
   contadorPuntosJug1++;
-} else if (jugadorUno.habilidades.velocidad < jugadorDos.habilidades.velocidad)
+} else if (jugadorUno.habilidades.velocidad < jugadorDos.habilidades.velocidad) {
   contadorPuntosJug2++;
 } else {
   contadorPuntosJug1++;
