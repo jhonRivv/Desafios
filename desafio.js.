@@ -49,17 +49,6 @@ var ganador;
 //La indicación ++ luego de la variable contadorPuntosJug suma 1 punto al
 //contador. Según la condición que se cumpla, se irán sumando los puntos.
 
-//EJEMPLO ESTRUCTURA DE COMPARACIÓN//
-if (habilidadACompararJugador1 > habilidadACompararJugador2) {
-  contadorPuntosJug1 = contadorPuntosJug1 + 1;
-} else if (condiciónCasoContrario) {
-  contadorPuntosJug2++;
-} else {
-  contadorPuntosJug1++;
-  contadorPuntosJug2++;
-}
-// (Escribir debajo el código que te permita generar esta comparación)//
-
 //COMPARACION POR PODER DE ATAQUE//
 if(jugadorUno.habilidades.ataque > jugadorDos.habilidades.ataque) {
   contadorPuntosJug1++;
