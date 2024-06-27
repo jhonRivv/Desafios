@@ -16,7 +16,7 @@ const jugadorUno = {
     vida: 100,
     magia: 120,
   },
-  articulos: ["espada", "escudo", "varita"],
+  articulos: ["espada", "escudo", "varita","lanza"],
 };
 
 const jugadorDos = {
